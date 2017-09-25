@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.colomoto</groupId>
+  <artifactId>MDDlib</artifactId>
+  <versioning>
+    <versions>
+      <version>0.3.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170925030055</lastUpdated>
+  </versioning>
+</metadata>
