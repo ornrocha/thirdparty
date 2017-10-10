@@ -5,12 +5,21 @@
 	<artifactId>JBiclustGE-datatools</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>JBiclustGE-datatools</name>
-	<description>Package containing methods to manage experimental data sources</description>
+	<description>Package containing methods to manage gene expression datasets, and other functions concerning to transcriptional factors</description>
+
+    <developers>
+		<developer>
+			<name>Orlando Rocha</name>
+			<email>ornrocha@gmail.com</email>
+		</developer>
+	</developers>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.sign.skip>true</project.sign.skip>
 	</properties>
 
 
@@ -73,19 +82,6 @@
 
 	</dependencies>
 
-
-
-	<repositories>
-
-		<repository>
-			<id>git-ornrocha</id>
-			<url>https://github.com/ornrocha/thirdparty/raw/master/mvn-repo</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
 
 
 </project>
