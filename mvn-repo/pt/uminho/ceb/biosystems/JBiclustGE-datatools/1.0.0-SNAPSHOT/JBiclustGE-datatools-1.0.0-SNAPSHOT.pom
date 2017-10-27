@@ -7,7 +7,7 @@
 	<name>JBiclustGE-datatools</name>
 	<description>Package containing methods to manage gene expression datasets, and other functions concerning to transcriptional factors</description>
 
-    <developers>
+	<developers>
 		<developer>
 			<name>Orlando Rocha</name>
 			<email>ornrocha@gmail.com</email>
@@ -82,6 +82,16 @@
 
 	</dependencies>
 
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray</id>
+			<url>https://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
 
 
 </project>
