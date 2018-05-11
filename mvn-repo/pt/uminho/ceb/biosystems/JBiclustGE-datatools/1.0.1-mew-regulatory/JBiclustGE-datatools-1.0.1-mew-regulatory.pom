@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pt.uminho.ceb.biosystems</groupId>
 	<artifactId>JBiclustGE-datatools</artifactId>
-	<version>1.0.1-reg4optflux</version>
+	<version>1.0.1-mew-regulatory</version>
 	<name>JBiclustGE-datatools</name>
 	<description>Package containing methods to manage gene expression datasets, and other functions concerning to transcriptional factors. (adapted for reg4optflux)</description>
 
@@ -57,7 +57,7 @@
 		<dependency>
 			<groupId>pt.ornrocha</groupId>
 			<artifactId>multiutils</artifactId>
-			<version>1.0.1-reg4optflux</version>
+			<version>1.0.1-mew-regulatory</version>
 		</dependency>
 		<dependency>
 			<groupId>it.unimi.dsi</groupId>

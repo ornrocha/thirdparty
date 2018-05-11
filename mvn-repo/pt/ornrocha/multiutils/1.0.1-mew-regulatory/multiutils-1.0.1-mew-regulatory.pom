@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pt.ornrocha</groupId>
 	<artifactId>multiutils</artifactId>
-	<version>1.0.1-reg4optflux</version>
+	<version>1.0.1-mew-regulatory</version>
 	<name>multiutils</name>
 	<description>Support functions for development (modified version to use the same dependency versions of optflux)</description>
 

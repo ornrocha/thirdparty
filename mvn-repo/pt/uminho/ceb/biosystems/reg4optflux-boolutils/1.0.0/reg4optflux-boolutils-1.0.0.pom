@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>pt.ornrocha</groupId>
 			<artifactId>multiutils</artifactId>
-			<version>1.0.1-reg4optflux</version>
+			<version>1.0.1-mew-regulatory</version>
 		</dependency>
 	</dependencies>
 
