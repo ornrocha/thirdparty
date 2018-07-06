@@ -3,10 +3,13 @@
   <groupId>pt.uminho.ceb.biosystems</groupId>
   <artifactId>JBiclustGE-datatools</artifactId>
   <versioning>
+    <release>1.0.2-mew-regulatory</release>
     <versions>
       <version>1.0.0-SNAPSHOT</version>
       <version>1.0.1-SNAPSHOT</version>
+      <version>1.0.2-SNAPSHOT</version>
+      <version>1.0.2-mew-regulatory</version>
     </versions>
-    <lastUpdated>20180508010701</lastUpdated>
+    <lastUpdated>20180706015722</lastUpdated>
   </versioning>
 </metadata>
