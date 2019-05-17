@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>pt.uminho.ceb.biosystems</groupId>
+  <artifactId>JBiclustGE-annotationtools</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190517231040</lastUpdated>
+  </versioning>
+</metadata>

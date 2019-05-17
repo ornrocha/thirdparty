@@ -1,0 +1,97 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>pt.uminho.ceb.biosystems</groupId>
+	<artifactId>JBiclustGE-datatools</artifactId>
+	<version>1.1.0-SNAPSHOT</version>
+	<name>JBiclustGE-datatools</name>
+	<description>Package containing methods to manage gene expression datasets, and other functions concerning to transcriptional factors</description>
+
+	<developers>
+		<developer>
+			<name>Orlando Rocha</name>
+			<email>ornrocha@gmail.com</email>
+		</developer>
+	</developers>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.sign.skip>true</project.sign.skip>
+	</properties>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>pt.ornrocha</groupId>
+			<artifactId>multiutils</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>it.unimi.dsi</groupId>
+			<artifactId>fastutil</artifactId>
+			<version>7.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.haifengl</groupId>
+			<artifactId>smile-core</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-native</artifactId>
+			<version>0.9.1</version>
+			<!-- <classifier>linux-x86_64</classifier> -->
+		</dependency>
+		<dependency>
+			<groupId>org.nd4j</groupId>
+			<artifactId>nd4j-native-platform</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+
+	</dependencies>
+
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray</id>
+			<url>https://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+
+
+</project>
