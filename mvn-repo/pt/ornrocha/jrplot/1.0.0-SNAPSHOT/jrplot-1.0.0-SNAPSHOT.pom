@@ -29,7 +29,7 @@
 		<dependency>
 			<groupId>pt.ornrocha</groupId>
 			<artifactId>multiutils</artifactId>
-			<version>1.0.0</version>
+			<version>1.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>hu.kazocsaba</groupId>
@@ -49,19 +49,19 @@
 				<executions>
 					<execution>
 						<id>attach-sources</id>
+						<phase>deploy</phase>
 						<goals>
 							<goal>jar</goal>
 						</goals>
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+		<!-- 	<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
-						<phase>deploy</phase>
 						<goals>
 							<goal>jar</goal>
 						</goals>
@@ -70,7 +70,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<artifactId>maven-deploy-plugin</artifactId>
 				<executions>
@@ -104,22 +104,11 @@
 
 
 
-	<repositories>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>bintray</id>
-			<url>https://jcenter.bintray.com</url>
-		</repository>
-		<repository>
-			<id>git-ornrocha</id>
-			<url>https://github.com/ornrocha/thirdparty/raw/master/mvn-repo</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
-
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>oss-jfrog-artifactory-snapshots</name>
+			<url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun May 19 18:16:52 WEST 2019
+jrplot-1.0.0-SNAPSHOT-sources.jar>=
+jrplot-1.0.0-SNAPSHOT.jar>=
+jrplot-1.0.0-SNAPSHOT.pom>git-ornrocha=
+jrplot-1.0.0-SNAPSHOT.jar>git-ornrocha=
+jrplot-1.0.0-SNAPSHOT.pom>=
